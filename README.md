@@ -1,4 +1,4 @@
-# 🛡️ CH CHECKER - Cálculos Hidráulicos
+#  CH CHECKER - Cálculos Hidráulicos
 
 O **CH CHECKER** é uma aplicação desktop desenvolvida em Python para automação da auditoria e verificação de relatórios de Cálculo Hidráulico (sistemas de combate a incêndio por agentes limpos: **Klents FK-5112**, **HFC-227ea** e **Sevo FK-5112**).
 
@@ -6,7 +6,7 @@ A ferramenta extrai os parâmetros técnicos diretamente de relatórios em PDF, 
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Análise Automática de PDFs:** Leitura inteligente do relatório extraindo agentes, tempos de descarga, pressões, vazões e tubulações.
 - **Validação de Furação de Difusores:** Tabela interativa que mapeia o nó do bico, identifica o diâmetro nominal (**DN**) da tubulação e valida se o diâmetro da furação (**TAM BICO**) está dentro dos limites mínimo (**TAM MIN**) e máximo (**TAM MAX**).
@@ -19,7 +19,7 @@ A ferramenta extrai os parâmetros técnicos diretamente de relatórios em PDF, 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Python 3.10+**
 - **[Tkinter](https://docs.python.org/3/library/tkinter.html):** Interface gráfica nativa.
@@ -29,7 +29,7 @@ A ferramenta extrai os parâmetros técnicos diretamente de relatórios em PDF, 
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 ├── CH_script.py    # Módulo de extração, regras de negócio e validação dos PDFs
