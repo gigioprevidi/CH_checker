@@ -3,7 +3,7 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 
-from CH_script_00 import analisar_pdf, remover_mensagem_erro_pdf
+from CH_script import analisar_pdf, remover_mensagem_erro_pdf
 
 
 caminho_pdf_atual = None
