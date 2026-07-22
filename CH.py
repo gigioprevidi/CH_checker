@@ -84,7 +84,6 @@ def selecionar_e_analisar():
             )
 
         # Exibe a Tabela de Furação dos Difusores
-        # Exibe a Tabela de Furação dos Difusores
         fur_data = resultado.get("tabela_furacao", {})
         st_fur = fur_data.get("status", "-")
         qtd_fur = fur_data.get("qtd", 0)
@@ -117,9 +116,7 @@ def selecionar_e_analisar():
         )
 
 
-# ---------------------------------------------------------------------------
 # Interface Gráfica
-# ---------------------------------------------------------------------------
 root = tk.Tk()
 root.title("Cálculo Hidráulico")
 root.geometry("800x640")
