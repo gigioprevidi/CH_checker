@@ -8,14 +8,14 @@ A ferramenta extrai os parâmetros técnicos diretamente de relatórios em PDF, 
 
 ## 🚀 Funcionalidades
 
-- 📄 **Análise Automática de PDFs:** Leitura inteligente do relatório extraindo agentes, tempos de descarga, pressões, vazões e tubulações.
-- 📐 **Validação de Furação de Difusores:** Tabela interativa que mapeia o nó do bico, identifica o diâmetro nominal (**DN**) da tubulação e valida se o diâmetro da furação (**TAM BICO**) está dentro dos limites mínimo (**TAM MIN**) e máximo (**TAM MAX**).
-- ⚙️ **Suporte Multi-Agente:**
+- **Análise Automática de PDFs:** Leitura inteligente do relatório extraindo agentes, tempos de descarga, pressões, vazões e tubulações.
+- **Validação de Furação de Difusores:** Tabela interativa que mapeia o nó do bico, identifica o diâmetro nominal (**DN**) da tubulação e valida se o diâmetro da furação (**TAM BICO**) está dentro dos limites mínimo (**TAM MIN**) e máximo (**TAM MAX**).
+- **Suporte Multi-Agente:**
   - **Klents FK-5112** *(Tabela INFO COMB KL)*
   - **HFC-227ea** *(Tabela INFO COMB KL)*
   - **Sevo FK-5112** *(Tabela INFO COMB SV - validação de altitude e desconto)*
-- 🧹 **Edição e Limpeza de PDF:** Identifica a mensagem de erro da página 1 (`!!! PRESCRIBED CONCENTRATION-DISTRIBUTION IN THE ZONES ARE NOT GUARANTEED`) e habilita um botão dinâmico para gerar uma cópia limpa do PDF aprovado.
-- 🖥️ **Interface Gráfica Simples (Tkinter):** Visualização instantânea do resultado com tabela alinhada e status geral (**APROVADO** / **REPROVADO**).
+- **Edição e Limpeza de PDF:** Identifica a mensagem de erro da página 1 (`!!! PRESCRIBED CONCENTRATION-DISTRIBUTION IN THE ZONES ARE NOT GUARANTEED`) e habilita um botão dinâmico para gerar uma cópia limpa do PDF aprovado.
+- **Interface Gráfica Simples (Tkinter):** Visualização instantânea do resultado com tabela alinhada e status geral (**APROVADO** / **REPROVADO**).
 
 ---
 
@@ -32,8 +32,8 @@ A ferramenta extrai os parâmetros técnicos diretamente de relatórios em PDF, 
 ## 📂 Estrutura do Projeto
 
 ```text
-├── CH_script_00.py    # Módulo de extração, regras de negócio e validação dos PDFs
-├── CH_00.py      # Interface gráfica (Tkinter) e fluxo do aplicativo
+├── CH_script.py    # Módulo de extração, regras de negócio e validação dos PDFs
+├── CH.py      # Interface gráfica (Tkinter) e fluxo do aplicativo
 ├── README.md              # Documentação do projeto
 └── dist/
-    └── CH_00.exe     # Executável gerado para distribuição
+    └── CH.exe     # Executável gerado para distribuição
