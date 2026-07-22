@@ -118,8 +118,11 @@ def selecionar_e_analisar():
 
 # Interface Gráfica
 root = tk.Tk()
-root.title("Cálculo Hidráulico")
-root.geometry("800x640")
+root.title("CH CHECKER - Auditor de Cálculos Hidráulicos v1.5")
+
+root.geometry("1000x750")
+
+root.minsize(800, 500)
 
 frame_botoes = tk.Frame(root)
 frame_botoes.pack(pady=15)
@@ -156,8 +159,8 @@ lbl_status = tk.Label(root, text="STATUS FINAL: -", font=("Arial", 16, "bold"))
 lbl_status.pack(pady=10)
 
 txt_resultado = scrolledtext.ScrolledText(
-    root, width=88, height=22, font=("Consolas", 9)
+    root, font=("Consolas", 10)
 )
-txt_resultado.pack(padx=15, pady=10)
+txt_resultado.pack(padx=20, pady=(5, 20), fill=tk.BOTH, expand=True)
 
 root.mainloop()
