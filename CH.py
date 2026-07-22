@@ -121,7 +121,7 @@ def selecionar_e_analisar():
 # Interface Gráfica
 # ---------------------------------------------------------------------------
 root = tk.Tk()
-root.title("Cálculo Hidráulico R00")
+root.title("Cálculo Hidráulico")
 root.geometry("800x640")
 
 frame_botoes = tk.Frame(root)
