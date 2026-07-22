@@ -1,4 +1,4 @@
-# 🛡️ CH CHECKER - Auditor de Cálculos Hidráulicos (Agente Limpo)
+# 🛡️ CH CHECKER - Cálculos Hidráulicos
 
 O **CH CHECKER** é uma aplicação desktop desenvolvida em Python para automação da auditoria e verificação de relatórios de Cálculo Hidráulico (sistemas de combate a incêndio por agentes limpos: **Klents FK-5112**, **HFC-227ea** e **Sevo FK-5112**).
 
